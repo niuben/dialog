@@ -1,0 +1,54 @@
+/*弹出框样式*/
+.dialog{
+  position: absolute;
+  top: -500px;
+  left: 500px;
+  z-index: 6;
+  width: 312px;
+  background: url(../images/dialog-middle-bg.png);
+  font-size: 12px;
+  color: #2b2b2b;
+}
+.dialog-header{
+  width:312px;
+  height: 40px;
+  background: url(../images/dialog-header.png);
+  line-height: 40px;
+  font-weight: bold;
+  color: #FFF;
+}  
+.dialog-title{
+  float: left;
+  height: 40px;
+  width: 250px;
+  margin-left: 15px;
+  font-size: 14px;
+}
+.dialog-close{
+  float: right;
+  height: 40px;
+  font-size: 18px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.dialog-content{
+  background:#FFF;
+  width:312px;
+  height: 280px;
+  background: url(../images/dialog-middle-bg.png) repeat-y;
+}
+
+.dialog-content p{
+  padding-top: 5px;
+}
+.dialog-content h1{
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2A2A2A;
+}
+.dialog-foot{
+  width: 312px;
+  text-align: center;
+  background: url(../images/dialog-bottom.png) no-repeat left bottom;  
+}      
